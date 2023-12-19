@@ -16,6 +16,7 @@ struct ContentView: View {
                 .scaledToFit()
             Text("Added new line")
                 .padding().scaledToFit().font(.caption)
+            
         }
     }
 }
