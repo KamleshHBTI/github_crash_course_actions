@@ -6,3 +6,6 @@
 //
 
 import Foundation
+
+// MARK: Git Revert command
+// git revert commitId
