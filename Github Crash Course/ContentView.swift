@@ -9,10 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        HStack {
+        VStack {
+            // MARK: Add new commit
             Text("Github code snapshot").padding()
                 .font(.subheadline)
                 .scaledToFit()
+            Text("Added new line")
+                .padding().scaledToFit().font(.caption)
         }
     }
 }
